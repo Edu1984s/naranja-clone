@@ -1,0 +1,35 @@
+@use "./modules/fonts";
+@use "./modules/nav";
+
+body {
+  font-family: "Roboto", "sans serif";
+}
+
+.get-naranja {
+  display: flex;
+  padding: 100px;
+  justify-content: center;
+
+  &__text-container {
+    max-width: 600px;
+  }
+
+  &__title {
+    font-size: 1.5rem;
+  }
+
+  &__description {
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: #fe5000;
+    font-weight: bold;
+    font-size: 0.95rem;
+    &:hover {
+      color: #fe5000;
+    }
+  }
+}
